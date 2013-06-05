@@ -92,9 +92,9 @@ static const Draw_t DrawList[][MAX_DRAW_ITEM_NUM] =
     {DrawMin, {1, 24, Time, DRAW_OPT_NONE, DRAW_OPT_BITWISE_OR}},
     {DrawBluetoothState, {30, 28, ICON_SET_BLUETOOTH_SMALL, DRAW_OPT_BITWISE_OR}},
     {DrawBatteryStatus, {35, 3, ICON_SET_BATTERY_V, DRAW_OPT_BITWISE_OR}},
-    {DrawDate, {25, 26, MetaWatch7, DRAW_OPT_OVERLAP_BT, DRAW_OPT_BITWISE_OR}},
-    {DrawSec, {29, 32, MetaWatch16, DRAW_OPT_OVERLAP_BT, DRAW_OPT_BITWISE_OR}},
-    {DrawDayofWeek, {25, 36, MetaWatch7, DRAW_OPT_OVERLAP_BT | DRAW_OPT_OVERLAP_SEC, DRAW_OPT_BITWISE_OR}}
+    {DrawDate, {25, 26, MetaWatch7, DRAW_OPT_OVERLAP_BATTERY, DRAW_OPT_BITWISE_OR}},
+    {DrawSec, {29, 32, MetaWatch16, DRAW_OPT_OVERLAP_BATTERY, DRAW_OPT_BITWISE_OR}},
+    {DrawDayofWeek, {25, 36, MetaWatch7, DRAW_OPT_OVERLAP_BATTERY | DRAW_OPT_OVERLAP_SEC, DRAW_OPT_BITWISE_OR}}
   },
   { //2Q-TimeG
     {DrawHour, {7, 2, TimeG, DRAW_OPT_SEPARATOR, DRAW_OPT_BITWISE_OR}},
@@ -103,7 +103,7 @@ static const Draw_t DrawList[][MAX_DRAW_ITEM_NUM] =
     {DrawBatteryStatus, {38, 35, ICON_SET_BATTERY_H, DRAW_OPT_BITWISE_OR}},
     {DrawDate, {7, 35, MetaWatch7, DRAW_OPT_NONE, DRAW_OPT_BITWISE_OR}},
     {DrawSec, {38, 29, MetaWatch16, DRAW_OPT_OVERLAP_BATTERY, DRAW_OPT_BITWISE_OR}},
-    {DrawDayofWeek, {72, 35, MetaWatch7, DRAW_OPT_OVERLAP_BT, DRAW_OPT_BITWISE_OR}}
+    {DrawDayofWeek, {72, 35, MetaWatch7, DRAW_OPT_OVERLAP_BBATTERY, DRAW_OPT_BITWISE_OR}}
   },
 //  { // 4Q Logo TimeBlock
 //    {DrawTemplate, {0, 0, TMPL_WGT_LOGO, DRAW_OPT_NONE, DRAW_OPT_BITWISE_OR}},
